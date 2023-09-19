@@ -1,0 +1,2622 @@
+[
+  {
+    "car": [
+      {
+        "id": "63e3410c-eb94-4438-b4f7-b9b0a1303ec9",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 32193,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-19T07:04:11.634Z",
+        "updated_at": "2023-09-19T04:26:12.416Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e40dcf14-daf3-4d43-821b-717c6b451ebb",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 37770,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-19T08:57:05.608Z",
+        "updated_at": "2023-09-19T05:57:56.839Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "05d8d2b7-c6bd-4085-8a92-365691c19065",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 40450,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-18T17:57:56.798Z",
+        "updated_at": "2023-09-19T01:41:09.127Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "257b5355-9d60-42f1-9c31-7ea6c2ff76c9",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 37873,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability_status": "In Service",
+        "created_at": "2023-09-18T22:34:50.471Z",
+        "updated_at": "2023-09-19T06:15:54.764Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "62d56860-e7a4-4891-9395-300c010ea5ac",
+        "make": "BMW",
+        "model": "X5",
+        "year": 25588,
+        "color": "White",
+        "license_plate": "456DEF",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-18T23:41:33.594Z",
+        "updated_at": "2023-09-19T10:09:49.087Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "f985ef1c-61a7-4b4b-9d0b-5d8c91eda11c",
+        "latitude": 0.3386601891834289,
+        "longitude": 0.29961262084543705,
+        "address": "789 Elm Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-19T02:23:45.784Z",
+        "updated_at": "2023-09-19T08:46:16.679Z",
+        "car_id": "62d56860-e7a4-4891-9395-300c010ea5ac"
+      },
+      {
+        "id": "071ec31e-7781-4a67-a111-b734f866265d",
+        "latitude": 0.6858816836029291,
+        "longitude": 0.2769725499674678,
+        "address": "456 Oak Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-19T10:25:38.157Z",
+        "updated_at": "2023-09-19T00:46:19.243Z",
+        "car_id": "63e3410c-eb94-4438-b4f7-b9b0a1303ec9"
+      },
+      {
+        "id": "92c79d2b-ff19-400a-ab6b-ee15aa494868",
+        "latitude": 0.6468480308540165,
+        "longitude": 0.45506149530410767,
+        "address": "123 Maple Drive",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80202",
+        "created_at": "2023-09-19T04:32:27.903Z",
+        "updated_at": "2023-09-19T01:06:42.752Z",
+        "car_id": "63e3410c-eb94-4438-b4f7-b9b0a1303ec9"
+      },
+      {
+        "id": "d9b64146-4e87-4dd3-bbdf-18946341bdd5",
+        "latitude": 0.07840235345065594,
+        "longitude": 0.6312174098566175,
+        "address": "654 Pine Lane",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-19T06:06:34.608Z",
+        "updated_at": "2023-09-19T08:07:32.632Z",
+        "car_id": "62d56860-e7a4-4891-9395-300c010ea5ac"
+      },
+      {
+        "id": "be73aec7-4ffe-44c0-bb42-7871b24c0fb1",
+        "latitude": 0.19590723840519786,
+        "longitude": 0.8485774099826813,
+        "address": "321 Cedar Road",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-09-19T04:50:01.262Z",
+        "updated_at": "2023-09-18T13:53:21.520Z",
+        "car_id": "05d8d2b7-c6bd-4085-8a92-365691c19065"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5e248c4c-5659-47a1-991a-ab49eaaadfbe",
+        "start_time": "2023-09-18T13:55:07.445Z",
+        "end_time": "2023-09-18T15:44:30.192Z",
+        "status": "Pending",
+        "created_at": "2023-09-18T22:24:09.013Z",
+        "updated_at": "2023-09-18T23:11:58.722Z",
+        "car_id": "e40dcf14-daf3-4d43-821b-717c6b451ebb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fd64557-bcec-4b07-8332-0f4abddddb63",
+        "start_time": "2023-09-19T01:02:59.099Z",
+        "end_time": "2023-09-18T19:50:37.369Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-18T18:27:37.908Z",
+        "updated_at": "2023-09-19T07:51:17.527Z",
+        "car_id": "62d56860-e7a4-4891-9395-300c010ea5ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "455254d2-a77c-498d-b1bf-5000e59ce3e7",
+        "start_time": "2023-09-18T20:41:25.712Z",
+        "end_time": "2023-09-19T03:32:12.989Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-18T23:01:59.003Z",
+        "updated_at": "2023-09-18T11:30:14.477Z",
+        "car_id": "e40dcf14-daf3-4d43-821b-717c6b451ebb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76f05416-c2a3-4ade-9128-7f97a8072249",
+        "start_time": "2023-09-18T23:19:01.213Z",
+        "end_time": "2023-09-19T09:43:04.803Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T05:46:07.468Z",
+        "updated_at": "2023-09-18T22:54:56.263Z",
+        "car_id": "63e3410c-eb94-4438-b4f7-b9b0a1303ec9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7ecc308-84e7-468a-9ea0-3879c011672b",
+        "start_time": "2023-09-19T06:51:07.399Z",
+        "end_time": "2023-09-18T21:29:00.411Z",
+        "status": "On Hold",
+        "created_at": "2023-09-18T21:52:43.356Z",
+        "updated_at": "2023-09-18T21:38:40.385Z",
+        "car_id": "05d8d2b7-c6bd-4085-8a92-365691c19065",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "1ba284ea-006e-43aa-9d5b-164e4441ceeb",
+        "created_at": "2023-09-18T12:58:32.804Z",
+        "updated_at": "2023-09-18T16:42:05.224Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-001"
+      },
+      {
+        "id": "3e043b37-e0af-4abb-b971-c5d62ff495a9",
+        "created_at": "2023-09-18T11:47:44.370Z",
+        "updated_at": "2023-09-19T10:12:58.839Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-002"
+      },
+      {
+        "id": "51359e86-4606-4310-aac8-b9dfb9a992e4",
+        "created_at": "2023-09-18T23:13:39.635Z",
+        "updated_at": "2023-09-19T01:42:11.749Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-003"
+      },
+      {
+        "id": "b6f72b0f-7b0d-4827-9ec7-053f158653eb",
+        "created_at": "2023-09-18T19:30:17.085Z",
+        "updated_at": "2023-09-19T05:09:27.082Z",
+        "payment_method": "Cash",
+        "invoice_number": "INV-004"
+      },
+      {
+        "id": "52e2ee63-7af9-4330-b8c1-641945d9ffb2",
+        "created_at": "2023-09-18T21:32:48.479Z",
+        "updated_at": "2023-09-18T20:50:03.802Z",
+        "payment_method": "Venmo",
+        "invoice_number": "INV-005"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b2e6b6a8-b3a7-45f2-b3a7-0bd11e367586",
+        "email": "Lauriane_Mueller-Langosh@gmail.com",
+        "firstName": "Otho",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13809234",
+        "tenantId": null
+      },
+      {
+        "reference": "d3bcc3ba-a047-4f68-8235-de913f912b4e",
+        "email": "Israel_Parisian@yahoo.com",
+        "firstName": "Donna",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93814643",
+        "tenantId": null
+      },
+      {
+        "reference": "02e0cb41-9e41-4be1-a68c-bb4b829fe2d3",
+        "email": "Mayra_Vandervort90@gmail.com",
+        "firstName": "Elza",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39938406",
+        "tenantId": null
+      },
+      {
+        "reference": "3c5e5608-f80c-4044-b776-c7ddc9927966",
+        "email": "Berta3@yahoo.com",
+        "firstName": "Novella",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1bc8f369-efa9-49bc-8573-b9948702b89f",
+        "email": "Nelda.Bechtelar@yahoo.com",
+        "firstName": "Filomena",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48535307",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "2e138bfa-e3e9-41cf-80d5-9a9248f1dd3f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 15222,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T15:19:53.397Z",
+        "updated_at": "2023-09-18T13:05:58.603Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c5900e56-6fb1-4646-a66b-523f2f96fdde",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 62153,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-19T09:01:54.858Z",
+        "updated_at": "2023-09-19T07:49:10.078Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a2d60d4d-a925-445c-974a-bc2c36d92aa0",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 69115,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-18T12:41:16.217Z",
+        "updated_at": "2023-09-18T16:39:05.125Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a85e4e53-916e-4751-bf33-21f868128d4d",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 80600,
+        "color": "Yellow",
+        "license_plate": "456XYZ",
+        "availability_status": "In Use",
+        "created_at": "2023-09-19T08:18:27.247Z",
+        "updated_at": "2023-09-19T10:14:00.979Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8465cd5e-55e2-44cd-815b-215e63039b92",
+        "make": "BMW",
+        "model": "X5",
+        "year": 91372,
+        "color": "Black",
+        "license_plate": "789DEF",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-18T19:35:03.983Z",
+        "updated_at": "2023-09-19T08:38:26.192Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "f42cf75b-500d-4f0d-8c1c-90f416110143",
+        "latitude": 0.10261213569901884,
+        "longitude": 0.8896478107199073,
+        "address": "987 Elm Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-18T15:57:35.888Z",
+        "updated_at": "2023-09-19T03:12:11.720Z",
+        "car_id": "c5900e56-6fb1-4646-a66b-523f2f96fdde"
+      },
+      {
+        "id": "d605c2ce-4015-4d7b-8887-6beff8939f54",
+        "latitude": 0.07298551755957305,
+        "longitude": 0.9810373089276254,
+        "address": "654 Oak Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-19T04:51:25.031Z",
+        "updated_at": "2023-09-19T01:28:02.760Z",
+        "car_id": "a2d60d4d-a925-445c-974a-bc2c36d92aa0"
+      },
+      {
+        "id": "297d7fde-f7c5-44c7-a04e-958512cc66ea",
+        "latitude": 0.7113474789075553,
+        "longitude": 0.8307626296300441,
+        "address": "321 Maple Drive",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80202",
+        "created_at": "2023-09-19T01:44:01.360Z",
+        "updated_at": "2023-09-19T06:56:09.079Z",
+        "car_id": "8465cd5e-55e2-44cd-815b-215e63039b92"
+      },
+      {
+        "id": "c18c8c08-3cbc-48a7-85e9-35340b9c8e05",
+        "latitude": 0.05161358276382089,
+        "longitude": 0.46221547410823405,
+        "address": "789 Pine Lane",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-19T07:25:11.512Z",
+        "updated_at": "2023-09-18T20:48:55.698Z",
+        "car_id": "8465cd5e-55e2-44cd-815b-215e63039b92"
+      },
+      {
+        "id": "772931e7-c448-4242-bc2e-06f3e7c3cdf5",
+        "latitude": 0.6073370354715735,
+        "longitude": 0.5367800523526967,
+        "address": "456 Cedar Road",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-09-18T20:57:39.839Z",
+        "updated_at": "2023-09-19T07:02:33.065Z",
+        "car_id": "8465cd5e-55e2-44cd-815b-215e63039b92"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4b10e33e-2216-4588-bbc8-650c34160036",
+        "start_time": "2023-09-19T09:44:14.507Z",
+        "end_time": "2023-09-19T04:33:56.781Z",
+        "status": "Pending",
+        "created_at": "2023-09-18T14:29:24.755Z",
+        "updated_at": "2023-09-19T02:06:24.378Z",
+        "car_id": "a85e4e53-916e-4751-bf33-21f868128d4d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30def753-b1e4-4cb1-a309-2e5f41f45eec",
+        "start_time": "2023-09-19T00:58:29.494Z",
+        "end_time": "2023-09-19T01:50:30.293Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-18T20:23:13.003Z",
+        "updated_at": "2023-09-19T02:24:02.442Z",
+        "car_id": "a2d60d4d-a925-445c-974a-bc2c36d92aa0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ab3eb07-9267-4bc7-841d-402e7b228db9",
+        "start_time": "2023-09-19T07:15:15.792Z",
+        "end_time": "2023-09-19T02:37:08.028Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T10:56:35.452Z",
+        "updated_at": "2023-09-18T14:46:13.405Z",
+        "car_id": "a2d60d4d-a925-445c-974a-bc2c36d92aa0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ede8dee-2b03-4353-8c68-9dbdf03a8b6d",
+        "start_time": "2023-09-19T03:07:28.374Z",
+        "end_time": "2023-09-19T06:36:23.460Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T10:28:39.119Z",
+        "updated_at": "2023-09-18T22:45:01.043Z",
+        "car_id": "a2d60d4d-a925-445c-974a-bc2c36d92aa0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1471cea-207d-47e0-ad25-75ce23e19cf3",
+        "start_time": "2023-09-19T10:52:01.353Z",
+        "end_time": "2023-09-19T08:19:01.516Z",
+        "status": "In Progress",
+        "created_at": "2023-09-18T12:06:34.187Z",
+        "updated_at": "2023-09-18T21:08:07.930Z",
+        "car_id": "2e138bfa-e3e9-41cf-80d5-9a9248f1dd3f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "ec96fa45-c36a-4a70-bfa5-5a6f40f4484d",
+        "created_at": "2023-09-18T18:58:11.317Z",
+        "updated_at": "2023-09-19T05:38:20.638Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-001"
+      },
+      {
+        "id": "7a9aa4a5-764f-4dce-983c-76423fb496ee",
+        "created_at": "2023-09-19T05:58:15.975Z",
+        "updated_at": "2023-09-19T08:52:44.363Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-002"
+      },
+      {
+        "id": "f3c8f5b9-1e63-476c-843b-9468a51eb1b1",
+        "created_at": "2023-09-18T22:10:33.645Z",
+        "updated_at": "2023-09-19T01:28:49.779Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-003"
+      },
+      {
+        "id": "21005925-8d39-40a7-9966-354f94a7fdfd",
+        "created_at": "2023-09-19T09:09:29.202Z",
+        "updated_at": "2023-09-18T18:51:09.276Z",
+        "payment_method": "Apple Pay",
+        "invoice_number": "INV-004"
+      },
+      {
+        "id": "3c5beff1-b95b-43b6-a4df-33c4c2020460",
+        "created_at": "2023-09-18T18:13:42.906Z",
+        "updated_at": "2023-09-19T07:09:19.728Z",
+        "payment_method": "Google Pay",
+        "invoice_number": "INV-005"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "589c18bf-2875-4ad4-833a-34d33a5ed38b",
+        "email": "Alexandrine.Rempel-Denesik4@hotmail.com",
+        "firstName": "Khalil",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92673454",
+        "tenantId": null
+      },
+      {
+        "reference": "24f599c9-5e93-480c-b087-d135039c2a2d",
+        "email": "Percy.Hessel@gmail.com",
+        "firstName": "Quinton",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/958723",
+        "tenantId": null
+      },
+      {
+        "reference": "37c5f867-d922-48f5-82f6-80e2b108e73b",
+        "email": "Kevon63@hotmail.com",
+        "firstName": "Antonia",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23120929",
+        "tenantId": null
+      },
+      {
+        "reference": "6de261e4-387c-490a-8853-83d01b696ea4",
+        "email": "Flavio_Ledner@hotmail.com",
+        "firstName": "Joanny",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14101209",
+        "tenantId": null
+      },
+      {
+        "reference": "3042a7d3-0fbd-4be3-9ea4-ba37ceda88be",
+        "email": "Roselyn.Bogisich@hotmail.com",
+        "firstName": "Abner",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57260467",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "a1703a45-e67a-4bfc-818b-d10dfbfdfd39",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 87191,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-19T06:20:45.748Z",
+        "updated_at": "2023-09-18T21:11:25.653Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f3367e69-b016-4d24-8841-4e8d494f4b77",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 38352,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-19T06:44:54.235Z",
+        "updated_at": "2023-09-19T10:59:34.762Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c9faba4e-81eb-4b0c-8d7e-417915d9728f",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 48894,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-19T08:09:04.824Z",
+        "updated_at": "2023-09-18T11:39:14.995Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "323a4fcd-31e9-4feb-973a-c128a985c9b8",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 13481,
+        "color": "Yellow",
+        "license_plate": "789ABC",
+        "availability_status": "In Use",
+        "created_at": "2023-09-18T17:00:17.856Z",
+        "updated_at": "2023-09-19T01:18:21.580Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9d0da235-590d-4db2-9f63-891d6dc7b6ca",
+        "make": "BMW",
+        "model": "X5",
+        "year": 20703,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-18T15:59:18.525Z",
+        "updated_at": "2023-09-19T10:59:06.807Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "41855360-a019-4684-9354-507aa20ae87f",
+        "latitude": 0.15444273152388632,
+        "longitude": 0.39789289073087275,
+        "address": "789 Elm St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-18T17:09:20.823Z",
+        "updated_at": "2023-09-19T02:59:56.989Z",
+        "car_id": "323a4fcd-31e9-4feb-973a-c128a985c9b8"
+      },
+      {
+        "id": "24ec5204-a146-4dd5-affa-5acc5ab8b31e",
+        "latitude": 0.10313529171980917,
+        "longitude": 0.7245612158440053,
+        "address": "321 Oak St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-19T05:06:53.625Z",
+        "updated_at": "2023-09-18T20:53:18.154Z",
+        "car_id": "323a4fcd-31e9-4feb-973a-c128a985c9b8"
+      },
+      {
+        "id": "6941c3f4-6f63-4913-96a9-6c462b345e88",
+        "latitude": 0.43597836000844836,
+        "longitude": 0.9070634339004755,
+        "address": "654 Pine St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-09-19T08:40:00.413Z",
+        "updated_at": "2023-09-19T04:46:33.406Z",
+        "car_id": "c9faba4e-81eb-4b0c-8d7e-417915d9728f"
+      },
+      {
+        "id": "c4111fda-2968-4e6c-a7d4-0c4165e6e1e6",
+        "latitude": 0.11671655718237162,
+        "longitude": 0.505338414106518,
+        "address": "987 Maple St",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-09-18T13:27:29.399Z",
+        "updated_at": "2023-09-19T10:22:23.180Z",
+        "car_id": "c9faba4e-81eb-4b0c-8d7e-417915d9728f"
+      },
+      {
+        "id": "7d70aa4f-0b69-4f25-95f8-c5394d27a6ba",
+        "latitude": 0.5175580224022269,
+        "longitude": 0.04243180598132312,
+        "address": "456 Birch St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-18T14:10:18.088Z",
+        "updated_at": "2023-09-18T23:59:11.450Z",
+        "car_id": "f3367e69-b016-4d24-8841-4e8d494f4b77"
+      }
+    ],
+    "booking": [
+      {
+        "id": "73669570-4054-4dcf-9a9b-f6e00e618cc7",
+        "start_time": "2023-09-18T11:12:22.569Z",
+        "end_time": "2023-09-19T02:48:51.394Z",
+        "status": "Pending",
+        "created_at": "2023-09-19T08:27:50.588Z",
+        "updated_at": "2023-09-19T05:19:08.516Z",
+        "car_id": "c9faba4e-81eb-4b0c-8d7e-417915d9728f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "710e4f0e-08e8-49ee-ac32-84acfa05ca10",
+        "start_time": "2023-09-19T06:10:37.892Z",
+        "end_time": "2023-09-18T20:15:48.630Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-18T18:18:22.967Z",
+        "updated_at": "2023-09-19T07:09:17.466Z",
+        "car_id": "323a4fcd-31e9-4feb-973a-c128a985c9b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a7ba043-9a81-44d4-8c34-878b70dae053",
+        "start_time": "2023-09-18T17:45:09.846Z",
+        "end_time": "2023-09-18T12:25:16.029Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T00:12:39.886Z",
+        "updated_at": "2023-09-19T03:07:53.874Z",
+        "car_id": "c9faba4e-81eb-4b0c-8d7e-417915d9728f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bb68c35-3621-4954-9870-42a1900ac31e",
+        "start_time": "2023-09-19T07:28:19.885Z",
+        "end_time": "2023-09-18T20:40:47.632Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T05:41:16.930Z",
+        "updated_at": "2023-09-18T21:09:21.305Z",
+        "car_id": "f3367e69-b016-4d24-8841-4e8d494f4b77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16d546b3-bccf-472d-99b3-9156f192d50b",
+        "start_time": "2023-09-18T16:57:24.621Z",
+        "end_time": "2023-09-18T19:18:07.485Z",
+        "status": "In Progress",
+        "created_at": "2023-09-18T18:31:34.198Z",
+        "updated_at": "2023-09-18T20:22:43.526Z",
+        "car_id": "9d0da235-590d-4db2-9f63-891d6dc7b6ca",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "57387d66-53db-4157-946d-56cd6fc01b0f",
+        "created_at": "2023-09-18T16:28:25.433Z",
+        "updated_at": "2023-09-19T00:33:07.344Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-001"
+      },
+      {
+        "id": "6f83f3b9-1794-4261-bb3b-fd43eb55e1dd",
+        "created_at": "2023-09-19T02:43:02.644Z",
+        "updated_at": "2023-09-18T22:11:02.726Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-002"
+      },
+      {
+        "id": "48036b78-bc2d-4c4d-af76-feb8ea4359a1",
+        "created_at": "2023-09-18T13:28:33.869Z",
+        "updated_at": "2023-09-19T00:43:21.312Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-003"
+      },
+      {
+        "id": "079c5991-35df-4431-a5dc-c701c5285df4",
+        "created_at": "2023-09-18T17:28:10.718Z",
+        "updated_at": "2023-09-19T01:19:04.864Z",
+        "payment_method": "Venmo",
+        "invoice_number": "INV-004"
+      },
+      {
+        "id": "a7ad45f7-3931-4c26-9219-e9932a798d4f",
+        "created_at": "2023-09-19T02:34:50.739Z",
+        "updated_at": "2023-09-19T06:31:57.281Z",
+        "payment_method": "Apple Pay",
+        "invoice_number": "INV-005"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fce63e9f-bc41-47ec-aad6-4a2e14bd9c2c",
+        "email": "Kara_Fisher15@gmail.com",
+        "firstName": "Maxwell",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75241941",
+        "tenantId": null
+      },
+      {
+        "reference": "decdabf7-60fc-4b6f-852b-ad538d430d97",
+        "email": "Darby_Waters@gmail.com",
+        "firstName": "Wilmer",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82896868",
+        "tenantId": null
+      },
+      {
+        "reference": "6ab2a8ba-9c26-41ad-8860-079728870995",
+        "email": "Velma_Spinka@yahoo.com",
+        "firstName": "Hailee",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36c4cb8f-052e-4663-87a9-e9127ecdcc21",
+        "email": "Susanna_Spinka73@yahoo.com",
+        "firstName": "Mireya",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9472465",
+        "tenantId": null
+      },
+      {
+        "reference": "82a84596-6611-4b40-b307-8f46e465e516",
+        "email": "Wayne_Torphy@gmail.com",
+        "firstName": "Domingo",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38740825",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c37e8549-97fc-4efe-a420-a3e577a6a8c5",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 62346,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T15:29:32.515Z",
+        "updated_at": "2023-09-18T12:52:36.997Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cea348a4-a3d2-499a-ab55-7e89c26acf40",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 63951,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-18T12:38:00.086Z",
+        "updated_at": "2023-09-18T11:36:46.438Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4fc3b0cc-47cc-479c-a38e-839d13946eb8",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 4923,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability_status": "Rented",
+        "created_at": "2023-09-18T19:28:23.322Z",
+        "updated_at": "2023-09-18T23:39:50.330Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "795d7477-ef2e-49c5-94ee-4221ab045856",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 4129,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "availability_status": "Out of Service",
+        "created_at": "2023-09-19T06:35:59.135Z",
+        "updated_at": "2023-09-18T21:59:06.521Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0dd8f3f0-ad25-458a-b5fc-a65e1d6b8188",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 7145,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-18T13:56:54.585Z",
+        "updated_at": "2023-09-18T13:38:03.602Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "750d429e-03ca-4fda-a5ae-595bb93d4aeb",
+        "latitude": 0.7287968292366713,
+        "longitude": 0.2752311381045729,
+        "address": "789 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-18T15:46:20.125Z",
+        "updated_at": "2023-09-18T22:43:20.894Z",
+        "car_id": "0dd8f3f0-ad25-458a-b5fc-a65e1d6b8188"
+      },
+      {
+        "id": "b9795e97-0c46-4bac-91bc-ae99bc83ab1e",
+        "latitude": 0.08974436833523214,
+        "longitude": 0.06921856035478413,
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-19T10:36:41.250Z",
+        "updated_at": "2023-09-19T04:37:46.531Z",
+        "car_id": "795d7477-ef2e-49c5-94ee-4221ab045856"
+      },
+      {
+        "id": "c4913e4b-7bcc-49f0-b543-775052311c0a",
+        "latitude": 0.00346539169549942,
+        "longitude": 0.9637464508414268,
+        "address": "123 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-18T18:43:28.628Z",
+        "updated_at": "2023-09-19T09:16:40.634Z",
+        "car_id": "c37e8549-97fc-4efe-a420-a3e577a6a8c5"
+      },
+      {
+        "id": "97d2d253-d039-46cd-97ef-a3d0cabe7e7f",
+        "latitude": 0.37590455496683717,
+        "longitude": 0.269802532158792,
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-19T00:33:21.646Z",
+        "updated_at": "2023-09-19T08:00:42.442Z",
+        "car_id": "c37e8549-97fc-4efe-a420-a3e577a6a8c5"
+      },
+      {
+        "id": "cb2928bb-4771-4b52-abd3-d2c41f2e7696",
+        "latitude": 0.5528487837873399,
+        "longitude": 0.3076743760611862,
+        "address": "654 Maple St",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-09-18T19:01:21.192Z",
+        "updated_at": "2023-09-18T12:50:42.589Z",
+        "car_id": "c37e8549-97fc-4efe-a420-a3e577a6a8c5"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6c0d7a1c-dc16-4b4c-b0b5-a164de40b685",
+        "start_time": "2023-09-19T04:21:10.876Z",
+        "end_time": "2023-09-19T05:33:16.398Z",
+        "status": "Pending",
+        "created_at": "2023-09-19T07:43:54.035Z",
+        "updated_at": "2023-09-18T11:18:58.595Z",
+        "car_id": "c37e8549-97fc-4efe-a420-a3e577a6a8c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba284f39-8d5e-4e35-acee-2e0c8bf5552d",
+        "start_time": "2023-09-19T10:11:14.345Z",
+        "end_time": "2023-09-18T11:43:38.662Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-19T00:22:12.041Z",
+        "updated_at": "2023-09-18T23:16:13.379Z",
+        "car_id": "cea348a4-a3d2-499a-ab55-7e89c26acf40",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a8ae821-48e4-458d-b9f5-f686bb34b14f",
+        "start_time": "2023-09-19T07:32:32.603Z",
+        "end_time": "2023-09-18T20:03:57.244Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-18T18:14:59.157Z",
+        "updated_at": "2023-09-19T06:34:33.348Z",
+        "car_id": "4fc3b0cc-47cc-479c-a38e-839d13946eb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0329f050-9531-450d-9af0-ac8f7a55332e",
+        "start_time": "2023-09-19T06:35:57.881Z",
+        "end_time": "2023-09-19T02:04:15.753Z",
+        "status": "Completed",
+        "created_at": "2023-09-18T16:23:19.453Z",
+        "updated_at": "2023-09-19T06:26:54.193Z",
+        "car_id": "0dd8f3f0-ad25-458a-b5fc-a65e1d6b8188",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01abea1f-e9c6-4276-9a2f-da57c0703cf9",
+        "start_time": "2023-09-19T01:29:04.064Z",
+        "end_time": "2023-09-18T16:07:28.550Z",
+        "status": "In Progress",
+        "created_at": "2023-09-18T21:27:52.998Z",
+        "updated_at": "2023-09-18T23:37:08.411Z",
+        "car_id": "cea348a4-a3d2-499a-ab55-7e89c26acf40",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "11582c4a-73fc-49e8-b0d2-241a82334313",
+        "created_at": "2023-09-18T14:38:21.941Z",
+        "updated_at": "2023-09-18T11:44:27.266Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-12345"
+      },
+      {
+        "id": "5ba6ae8d-e5db-4edd-9d64-54eeb02dd197",
+        "created_at": "2023-09-19T05:12:26.766Z",
+        "updated_at": "2023-09-19T04:10:20.726Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-67890"
+      },
+      {
+        "id": "d28f8804-5e35-4326-babb-0c0fa5eab3c0",
+        "created_at": "2023-09-18T20:20:54.024Z",
+        "updated_at": "2023-09-18T14:20:27.367Z",
+        "payment_method": "Apple Pay",
+        "invoice_number": "INV-24680"
+      },
+      {
+        "id": "fcfa5251-7fa5-4892-a566-35e2f1cdc555",
+        "created_at": "2023-09-18T16:00:53.616Z",
+        "updated_at": "2023-09-18T17:51:11.681Z",
+        "payment_method": "Google Pay",
+        "invoice_number": "INV-13579"
+      },
+      {
+        "id": "c69674e2-f83c-4472-b1e0-a579518a8b0f",
+        "created_at": "2023-09-19T01:30:15.192Z",
+        "updated_at": "2023-09-18T14:47:37.684Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-97531"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "56e52cea-8446-4553-9668-008c6514b2f5",
+        "email": "Louie_Labadie97@gmail.com",
+        "firstName": "Derek",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70411249",
+        "tenantId": null
+      },
+      {
+        "reference": "a3b03bd8-6278-47f7-9ed3-f9c995c0a4b4",
+        "email": "Orville14@yahoo.com",
+        "firstName": "Josefina",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95445206",
+        "tenantId": null
+      },
+      {
+        "reference": "4eb6ec03-30b7-47c9-a63b-50a0f8748a3b",
+        "email": "Porter_Connelly@yahoo.com",
+        "firstName": "Ericka",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95715438",
+        "tenantId": null
+      },
+      {
+        "reference": "387b8cc2-2644-4c44-b1d4-718ab9a59e4e",
+        "email": "Luella.Haley94@gmail.com",
+        "firstName": "Devyn",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/851.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "09d063e2-8667-41ee-bceb-6a9254993a02",
+        "email": "Cleve_Von@hotmail.com",
+        "firstName": "Josh",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47630872",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c913693e-7700-408e-a1b7-65ee54bd98a3",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 39887,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T12:47:27.505Z",
+        "updated_at": "2023-09-19T02:20:47.158Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "00f9bc75-bcfc-4aa5-bc0e-1a2ce1146911",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 21268,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-18T20:55:14.625Z",
+        "updated_at": "2023-09-19T04:45:50.344Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e091e287-6f0b-4a2e-9907-3ac36ca3bb39",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 38985,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability_status": "In Service",
+        "created_at": "2023-09-18T12:55:31.601Z",
+        "updated_at": "2023-09-18T18:10:34.056Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0f191cee-0991-42a7-ad65-6a727e655f72",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 26655,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-18T17:23:15.725Z",
+        "updated_at": "2023-09-19T02:27:41.251Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6ea2ed82-59e6-40de-a454-bf7924fc5cce",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 39052,
+        "color": "White",
+        "license_plate": "456DEF",
+        "availability_status": "Out of Stock",
+        "created_at": "2023-09-19T04:44:27.210Z",
+        "updated_at": "2023-09-18T19:13:49.011Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "c85def3a-4ab2-4144-ba98-21d3fdffa0f8",
+        "latitude": 0.36794389924034476,
+        "longitude": 0.3383378318976611,
+        "address": "789 Elm St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-18T19:07:27.088Z",
+        "updated_at": "2023-09-18T17:59:03.250Z",
+        "car_id": "6ea2ed82-59e6-40de-a454-bf7924fc5cce"
+      },
+      {
+        "id": "21a4d0ac-9de4-4f2e-8b5d-fb4356f08ab6",
+        "latitude": 0.1366497108247131,
+        "longitude": 0.7526733719278127,
+        "address": "321 Oak St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-19T02:02:46.595Z",
+        "updated_at": "2023-09-19T03:37:11.189Z",
+        "car_id": "c913693e-7700-408e-a1b7-65ee54bd98a3"
+      },
+      {
+        "id": "b8ca8de4-9129-4aa0-9fa3-48ff75126394",
+        "latitude": 0.4970445795916021,
+        "longitude": 0.7988038731273264,
+        "address": "654 Maple St",
+        "city": "Austin",
+        "state": "TX",
+        "zip_code": "78701",
+        "created_at": "2023-09-18T21:40:12.011Z",
+        "updated_at": "2023-09-19T06:07:54.796Z",
+        "car_id": "00f9bc75-bcfc-4aa5-bc0e-1a2ce1146911"
+      },
+      {
+        "id": "a14cd0c6-be90-4d78-9b81-ee1d572c7d88",
+        "latitude": 0.5955439754761755,
+        "longitude": 0.34651721408590674,
+        "address": "987 Pine St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-18T11:36:43.219Z",
+        "updated_at": "2023-09-18T15:35:50.438Z",
+        "car_id": "00f9bc75-bcfc-4aa5-bc0e-1a2ce1146911"
+      },
+      {
+        "id": "39fbbfda-f733-4136-a0c6-67d6954426ae",
+        "latitude": 0.17727288976311684,
+        "longitude": 0.12519755051471293,
+        "address": "123 Cedar St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-09-19T04:18:44.894Z",
+        "updated_at": "2023-09-19T09:14:34.096Z",
+        "car_id": "00f9bc75-bcfc-4aa5-bc0e-1a2ce1146911"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1eee86ed-faad-42c5-8fe7-772dd7fb09ed",
+        "start_time": "2023-09-19T08:38:48.700Z",
+        "end_time": "2023-09-18T19:24:49.092Z",
+        "status": "Pending",
+        "created_at": "2023-09-18T23:39:11.230Z",
+        "updated_at": "2023-09-19T09:00:38.720Z",
+        "car_id": "00f9bc75-bcfc-4aa5-bc0e-1a2ce1146911",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1248e8a9-dc2a-4c37-9e8d-b41ddbd4eb52",
+        "start_time": "2023-09-18T14:22:54.139Z",
+        "end_time": "2023-09-18T20:18:41.661Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-19T04:30:17.414Z",
+        "updated_at": "2023-09-19T10:24:12.971Z",
+        "car_id": "6ea2ed82-59e6-40de-a454-bf7924fc5cce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af0dff1b-9d44-4c7a-8364-f7e7057048c7",
+        "start_time": "2023-09-18T22:57:23.644Z",
+        "end_time": "2023-09-18T17:38:49.865Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-18T16:28:54.213Z",
+        "updated_at": "2023-09-18T11:42:02.133Z",
+        "car_id": "0f191cee-0991-42a7-ad65-6a727e655f72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60de180c-5ef3-4b13-9c0e-56a1d55598d7",
+        "start_time": "2023-09-18T22:21:19.679Z",
+        "end_time": "2023-09-18T11:37:43.525Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T06:46:48.048Z",
+        "updated_at": "2023-09-18T23:51:07.571Z",
+        "car_id": "6ea2ed82-59e6-40de-a454-bf7924fc5cce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c98259c-73dd-4919-bb2b-2e168b64c600",
+        "start_time": "2023-09-19T08:39:06.268Z",
+        "end_time": "2023-09-18T11:33:58.985Z",
+        "status": "On Hold",
+        "created_at": "2023-09-18T19:05:03.181Z",
+        "updated_at": "2023-09-19T01:02:01.608Z",
+        "car_id": "00f9bc75-bcfc-4aa5-bc0e-1a2ce1146911",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "e5c114cc-d0c8-438b-8006-891c2c7267a4",
+        "created_at": "2023-09-19T09:59:26.646Z",
+        "updated_at": "2023-09-19T09:11:18.776Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-001"
+      },
+      {
+        "id": "678629df-6a3d-4edc-a46f-e97a16afdb3a",
+        "created_at": "2023-09-18T14:02:15.226Z",
+        "updated_at": "2023-09-18T23:43:42.954Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-002"
+      },
+      {
+        "id": "79a50c42-a5a7-4001-8be0-b663df31751d",
+        "created_at": "2023-09-19T00:04:43.517Z",
+        "updated_at": "2023-09-18T13:02:51.932Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-003"
+      },
+      {
+        "id": "2ca3f26f-266b-4132-9aeb-ec8a4b08dc4b",
+        "created_at": "2023-09-18T20:44:39.565Z",
+        "updated_at": "2023-09-19T09:08:28.988Z",
+        "payment_method": "Venmo",
+        "invoice_number": "INV-004"
+      },
+      {
+        "id": "233af38a-fec1-4d69-8ce5-197cfb870a8f",
+        "created_at": "2023-09-18T15:09:50.988Z",
+        "updated_at": "2023-09-19T11:06:19.050Z",
+        "payment_method": "Apple Pay",
+        "invoice_number": "INV-005"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "64cf82de-a62f-474d-a5fc-aa4b1cbe3a02",
+        "email": "Adrienne_Terry@gmail.com",
+        "firstName": "Dandre",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51206134",
+        "tenantId": null
+      },
+      {
+        "reference": "9c1bba9d-6d00-4021-834b-a704b32daa43",
+        "email": "Vernon78@yahoo.com",
+        "firstName": "Ethelyn",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1238.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec253ecd-acfa-40f4-9d87-f9df1731dff2",
+        "email": "Kristina.OReilly@hotmail.com",
+        "firstName": "Madonna",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/664.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61934f03-07e7-4655-809e-63abe6f0c00b",
+        "email": "Mariah.Halvorson@yahoo.com",
+        "firstName": "Shaina",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79511002",
+        "tenantId": null
+      },
+      {
+        "reference": "6a1bb2a8-2d1f-492c-bca1-e35880dc4951",
+        "email": "Carley_Lowe@gmail.com",
+        "firstName": "Jenifer",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "4c8a3088-7c1b-4ca6-8423-8fbc763abb0f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 94409,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T11:59:42.278Z",
+        "updated_at": "2023-09-18T18:26:33.022Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "214583ec-7ce4-41ec-8933-040f95ac6b60",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 848,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-18T20:15:03.998Z",
+        "updated_at": "2023-09-19T05:30:11.401Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0dc5cb8f-fd5e-4f6b-b748-daa26e45889e",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 9073,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability_status": "Rented",
+        "created_at": "2023-09-18T13:11:07.502Z",
+        "updated_at": "2023-09-18T11:33:33.924Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "72efd170-2c17-4e74-8176-98e9280e10c9",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 64207,
+        "color": "Black",
+        "license_plate": "DEF987",
+        "availability_status": "Out of Service",
+        "created_at": "2023-09-18T18:28:34.078Z",
+        "updated_at": "2023-09-18T11:49:45.549Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ba4bb82e-d474-4669-a50b-2600098e369b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 56334,
+        "color": "White",
+        "license_plate": "GHI654",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-19T07:27:47.646Z",
+        "updated_at": "2023-09-18T14:21:57.179Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "f7f73382-e8c4-48a3-b3c6-7d88b4bdb522",
+        "latitude": 0.635940277017653,
+        "longitude": 0.8808086181525141,
+        "address": "987 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-18T12:33:13.994Z",
+        "updated_at": "2023-09-18T14:20:10.490Z",
+        "car_id": "72efd170-2c17-4e74-8176-98e9280e10c9"
+      },
+      {
+        "id": "39b36317-28cc-49ba-8da8-6566bdd0cedb",
+        "latitude": 0.738270548870787,
+        "longitude": 0.5097104208543897,
+        "address": "654 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-19T09:14:11.198Z",
+        "updated_at": "2023-09-19T09:03:13.686Z",
+        "car_id": "4c8a3088-7c1b-4ca6-8423-8fbc763abb0f"
+      },
+      {
+        "id": "352b79c1-3379-499e-942c-9f4c247ff2a8",
+        "latitude": 0.16427997453138232,
+        "longitude": 0.33015102008357644,
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-18T23:12:01.084Z",
+        "updated_at": "2023-09-18T20:59:29.755Z",
+        "car_id": "ba4bb82e-d474-4669-a50b-2600098e369b"
+      },
+      {
+        "id": "310030ea-67b6-424f-8014-05a5e309f63d",
+        "latitude": 0.5748555306345224,
+        "longitude": 0.8143868381157517,
+        "address": "789 Maple St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19101",
+        "created_at": "2023-09-18T13:39:30.616Z",
+        "updated_at": "2023-09-18T18:23:34.553Z",
+        "car_id": "0dc5cb8f-fd5e-4f6b-b748-daa26e45889e"
+      },
+      {
+        "id": "bbfcdfc8-3805-482f-a9c9-f27b256af7f3",
+        "latitude": 0.4497265263926238,
+        "longitude": 0.7651032977737486,
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-18T23:22:04.732Z",
+        "updated_at": "2023-09-18T21:38:53.326Z",
+        "car_id": "4c8a3088-7c1b-4ca6-8423-8fbc763abb0f"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0117251a-4cb2-44bc-89cd-9eef07fc1972",
+        "start_time": "2023-09-18T11:39:05.171Z",
+        "end_time": "2023-09-19T03:08:35.595Z",
+        "status": "Pending",
+        "created_at": "2023-09-19T07:01:05.956Z",
+        "updated_at": "2023-09-18T13:26:27.285Z",
+        "car_id": "214583ec-7ce4-41ec-8933-040f95ac6b60",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35296733-7c62-41f9-bdd1-756b81a359eb",
+        "start_time": "2023-09-19T00:41:25.107Z",
+        "end_time": "2023-09-18T12:18:05.667Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-19T04:27:24.048Z",
+        "updated_at": "2023-09-19T07:33:30.831Z",
+        "car_id": "4c8a3088-7c1b-4ca6-8423-8fbc763abb0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd22b7ec-85ef-41de-b529-6d92ffda6448",
+        "start_time": "2023-09-19T01:54:04.222Z",
+        "end_time": "2023-09-18T21:03:24.589Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T03:55:16.638Z",
+        "updated_at": "2023-09-19T10:03:55.617Z",
+        "car_id": "72efd170-2c17-4e74-8176-98e9280e10c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a962c15-3ebb-4fda-90d8-b6cd849e8193",
+        "start_time": "2023-09-19T01:45:59.029Z",
+        "end_time": "2023-09-18T14:13:45.275Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T09:20:49.161Z",
+        "updated_at": "2023-09-18T18:08:10.723Z",
+        "car_id": "214583ec-7ce4-41ec-8933-040f95ac6b60",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41d511b3-757d-4e77-8289-d35225866a0c",
+        "start_time": "2023-09-19T06:43:30.016Z",
+        "end_time": "2023-09-19T00:29:43.241Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T05:07:20.256Z",
+        "updated_at": "2023-09-18T16:20:15.439Z",
+        "car_id": "4c8a3088-7c1b-4ca6-8423-8fbc763abb0f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "e8452fad-88f6-4ef3-a687-2b927e838bf6",
+        "created_at": "2023-09-18T11:28:11.417Z",
+        "updated_at": "2023-09-18T14:45:54.009Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-12345"
+      },
+      {
+        "id": "809d4dc2-fd05-4a2e-8575-0f6cb7af123d",
+        "created_at": "2023-09-19T03:37:09.514Z",
+        "updated_at": "2023-09-18T21:24:34.478Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-67890"
+      },
+      {
+        "id": "85476664-2fec-430f-96c4-404a4dd8b7b2",
+        "created_at": "2023-09-18T20:32:17.837Z",
+        "updated_at": "2023-09-19T10:54:13.900Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-24680"
+      },
+      {
+        "id": "ccda396b-9d12-4f0d-a7ee-4de63fc8cfed",
+        "created_at": "2023-09-19T09:06:31.986Z",
+        "updated_at": "2023-09-18T13:55:10.617Z",
+        "payment_method": "Cash",
+        "invoice_number": "INV-13579"
+      },
+      {
+        "id": "8d938003-d31b-4dbb-9af0-f00b29a88ac8",
+        "created_at": "2023-09-18T13:52:16.714Z",
+        "updated_at": "2023-09-18T22:55:14.643Z",
+        "payment_method": "Check",
+        "invoice_number": "INV-97531"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7ff304d8-a0c0-40e3-870d-6e7bf7ae0da7",
+        "email": "Emily_Conn@yahoo.com",
+        "firstName": "Thora",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ffc287a3-b3c6-46dc-a3b2-d606dfcfc1a4",
+        "email": "Daniela_Batz@yahoo.com",
+        "firstName": "Berneice",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34297565",
+        "tenantId": null
+      },
+      {
+        "reference": "91195d83-d358-4e93-918f-9a39de8eed0e",
+        "email": "Randy92@yahoo.com",
+        "firstName": "Kayden",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3448ddf2-3f32-477a-be62-c86d08506aca",
+        "email": "Janelle_Spinka91@yahoo.com",
+        "firstName": "Angeline",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68308146",
+        "tenantId": null
+      },
+      {
+        "reference": "02831065-eec9-4ead-aa70-024d6225c4d3",
+        "email": "Dorris53@hotmail.com",
+        "firstName": "Mariane",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43085384",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "e236de5c-2317-4d1f-aae7-e17dce762a3b",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 67615,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T20:26:40.952Z",
+        "updated_at": "2023-09-19T05:46:07.123Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "963bf9c2-dc33-44c0-952c-d877450e4674",
+        "make": "Honda",
+        "model": "Accord",
+        "year": 85362,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-19T07:45:12.457Z",
+        "updated_at": "2023-09-18T12:47:53.651Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d6c81d12-5473-4176-ae2d-b8d750154d54",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 92235,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-18T17:33:12.245Z",
+        "updated_at": "2023-09-19T08:17:07.393Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f3b12cc6-9a33-4bd4-b9a7-d37dfc551c87",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 90530,
+        "color": "Silver",
+        "license_plate": "789ABC",
+        "availability_status": "In Use",
+        "created_at": "2023-09-19T08:33:19.957Z",
+        "updated_at": "2023-09-19T06:00:38.426Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1880b4ba-2168-440a-a3fa-728a258f3063",
+        "make": "BMW",
+        "model": "X5",
+        "year": 64502,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-18T20:35:13.231Z",
+        "updated_at": "2023-09-18T22:42:11.996Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "58583107-e4a5-4f46-ad6d-e86f224f6891",
+        "latitude": 0.47865418368019164,
+        "longitude": 0.8335286027286202,
+        "address": "987 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-19T05:23:13.342Z",
+        "updated_at": "2023-09-19T03:56:01.528Z",
+        "car_id": "1880b4ba-2168-440a-a3fa-728a258f3063"
+      },
+      {
+        "id": "9da6f170-40bc-4b9a-9766-3a66afb63652",
+        "latitude": 0.791442126268521,
+        "longitude": 0.5525298193097115,
+        "address": "654 Elm St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-19T10:03:33.123Z",
+        "updated_at": "2023-09-18T14:37:38.655Z",
+        "car_id": "963bf9c2-dc33-44c0-952c-d877450e4674"
+      },
+      {
+        "id": "6a823086-74ee-4a23-8a72-407608928435",
+        "latitude": 0.6048989477567375,
+        "longitude": 0.6548316252883524,
+        "address": "321 Oak St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-09-19T09:03:36.275Z",
+        "updated_at": "2023-09-19T07:34:56.022Z",
+        "car_id": "963bf9c2-dc33-44c0-952c-d877450e4674"
+      },
+      {
+        "id": "c7aafe54-7e41-4a93-9057-ec79d2641999",
+        "latitude": 0.8777059696149081,
+        "longitude": 0.9957154472358525,
+        "address": "789 Maple St",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33101",
+        "created_at": "2023-09-18T12:02:15.988Z",
+        "updated_at": "2023-09-18T12:02:23.109Z",
+        "car_id": "1880b4ba-2168-440a-a3fa-728a258f3063"
+      },
+      {
+        "id": "cc9ea7e2-291d-4c23-b41b-ccdbf31abd95",
+        "latitude": 0.9478291359264404,
+        "longitude": 0.8395902116317302,
+        "address": "456 Pine St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-18T11:48:06.628Z",
+        "updated_at": "2023-09-18T20:26:20.637Z",
+        "car_id": "963bf9c2-dc33-44c0-952c-d877450e4674"
+      }
+    ],
+    "booking": [
+      {
+        "id": "03bd3fc4-2b1a-4a5c-823d-c8ee2e4253ce",
+        "start_time": "2023-09-19T05:40:41.900Z",
+        "end_time": "2023-09-19T09:41:50.557Z",
+        "status": "Pending",
+        "created_at": "2023-09-18T14:43:32.136Z",
+        "updated_at": "2023-09-18T14:41:10.404Z",
+        "car_id": "d6c81d12-5473-4176-ae2d-b8d750154d54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f6fe17b-a1f9-4071-a846-ebb4fd4001c7",
+        "start_time": "2023-09-19T08:03:47.674Z",
+        "end_time": "2023-09-18T21:39:21.222Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-19T08:53:56.332Z",
+        "updated_at": "2023-09-18T14:08:45.560Z",
+        "car_id": "f3b12cc6-9a33-4bd4-b9a7-d37dfc551c87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c12c2ee6-aa16-491a-aacc-ea21505008b1",
+        "start_time": "2023-09-19T00:04:04.174Z",
+        "end_time": "2023-09-19T02:43:13.071Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T03:53:12.736Z",
+        "updated_at": "2023-09-18T17:26:28.654Z",
+        "car_id": "f3b12cc6-9a33-4bd4-b9a7-d37dfc551c87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f3c8204-929f-4485-b285-c700f500b4bf",
+        "start_time": "2023-09-18T14:48:42.224Z",
+        "end_time": "2023-09-18T19:47:05.728Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T01:22:05.230Z",
+        "updated_at": "2023-09-18T17:55:19.486Z",
+        "car_id": "e236de5c-2317-4d1f-aae7-e17dce762a3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "933ab773-766d-402d-b964-8cb398b572b2",
+        "start_time": "2023-09-19T10:59:28.662Z",
+        "end_time": "2023-09-18T17:09:41.578Z",
+        "status": "On Hold",
+        "created_at": "2023-09-19T01:49:31.505Z",
+        "updated_at": "2023-09-19T03:14:01.145Z",
+        "car_id": "d6c81d12-5473-4176-ae2d-b8d750154d54",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "876d25d6-5135-4c6a-92ad-6272d3179f93",
+        "created_at": "2023-09-18T15:47:43.890Z",
+        "updated_at": "2023-09-18T21:47:38.065Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-12345"
+      },
+      {
+        "id": "24aaf497-944b-41c2-9832-412973ed4e22",
+        "created_at": "2023-09-18T20:02:42.481Z",
+        "updated_at": "2023-09-19T03:02:00.034Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-67890"
+      },
+      {
+        "id": "b2af3a40-35ad-4396-928f-930ddbf0a654",
+        "created_at": "2023-09-19T03:45:34.206Z",
+        "updated_at": "2023-09-19T09:02:33.628Z",
+        "payment_method": "Apple Pay",
+        "invoice_number": "INV-24680"
+      },
+      {
+        "id": "8e50c569-670d-482f-987b-65fc559f477c",
+        "created_at": "2023-09-18T23:13:48.099Z",
+        "updated_at": "2023-09-18T17:57:34.899Z",
+        "payment_method": "Google Pay",
+        "invoice_number": "INV-13579"
+      },
+      {
+        "id": "7784c453-2f21-44fc-9a37-4559f378555a",
+        "created_at": "2023-09-19T01:39:21.008Z",
+        "updated_at": "2023-09-18T20:44:34.824Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-97531"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dae7ece3-e801-4abc-91cb-dbc82e5ccbd8",
+        "email": "Ben86@gmail.com",
+        "firstName": "Shaun",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28942838",
+        "tenantId": null
+      },
+      {
+        "reference": "333fa8dc-b477-47a6-9670-12af8f9473af",
+        "email": "Gerson.Moore-Stracke18@yahoo.com",
+        "firstName": "Joshuah",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88913782",
+        "tenantId": null
+      },
+      {
+        "reference": "2a9e67b0-eb7c-421e-976d-7292b1968293",
+        "email": "Vaughn.Bode@yahoo.com",
+        "firstName": "Hazel",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "899e5fe0-ac34-48e8-9963-eb61952cb41d",
+        "email": "Sanford.Welch@hotmail.com",
+        "firstName": "Maribel",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80187597",
+        "tenantId": null
+      },
+      {
+        "reference": "342622cc-26a1-4047-b52a-59c70165acb3",
+        "email": "Devonte_Macejkovic@hotmail.com",
+        "firstName": "Ila",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/196.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "eefee960-b4c7-4b67-869c-ae8b1e67cd61",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 50088,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T17:09:00.223Z",
+        "updated_at": "2023-09-19T06:10:54.554Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "49a79066-84eb-4fc8-b9d8-8e9b36ea0218",
+        "make": "Honda",
+        "model": "Accord",
+        "year": 23866,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-19T01:11:39.527Z",
+        "updated_at": "2023-09-18T14:07:14.064Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "07ac06a0-ee18-41d7-a6bf-f2a204302af0",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 5085,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-19T09:51:40.356Z",
+        "updated_at": "2023-09-18T21:50:27.206Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1037a407-5990-40b8-b88a-1e7896aae3e1",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 14246,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability_status": "In Service",
+        "created_at": "2023-09-18T20:42:58.507Z",
+        "updated_at": "2023-09-19T10:31:14.030Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "16d64db0-bfa3-4001-ad87-cf4f6353b098",
+        "make": "BMW",
+        "model": "X5",
+        "year": 37590,
+        "color": "White",
+        "license_plate": "456DEF",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-19T06:59:54.522Z",
+        "updated_at": "2023-09-19T09:16:24.361Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "e1e6503e-e40f-461c-91a6-c3d1e14d1499",
+        "latitude": 0.9449957050383091,
+        "longitude": 0.4908932961989194,
+        "address": "987 Elm St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-18T17:09:03.206Z",
+        "updated_at": "2023-09-19T01:29:56.683Z",
+        "car_id": "1037a407-5990-40b8-b88a-1e7896aae3e1"
+      },
+      {
+        "id": "370e991e-6cf9-422f-aec2-aa87edfe6f65",
+        "latitude": 0.5951023285742849,
+        "longitude": 0.08758260845206678,
+        "address": "654 Oak St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-18T18:24:46.194Z",
+        "updated_at": "2023-09-19T01:55:44.563Z",
+        "car_id": "07ac06a0-ee18-41d7-a6bf-f2a204302af0"
+      },
+      {
+        "id": "17782137-f795-4bfe-9261-4b2219fbd68b",
+        "latitude": 0.1859215770382434,
+        "longitude": 0.3032785700634122,
+        "address": "321 Pine St",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80201",
+        "created_at": "2023-09-18T16:46:03.289Z",
+        "updated_at": "2023-09-19T06:55:06.304Z",
+        "car_id": "16d64db0-bfa3-4001-ad87-cf4f6353b098"
+      },
+      {
+        "id": "33a450c4-2437-4a64-b101-18f823e2930a",
+        "latitude": 0.9434123917017132,
+        "longitude": 0.4692359759937972,
+        "address": "789 Maple St",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-18T17:19:39.907Z",
+        "updated_at": "2023-09-19T10:50:28.304Z",
+        "car_id": "49a79066-84eb-4fc8-b9d8-8e9b36ea0218"
+      },
+      {
+        "id": "7ac6aa03-d6ec-4ad6-8b91-cc63a91e723f",
+        "latitude": 0.6058047355618328,
+        "longitude": 0.8427445671986789,
+        "address": "123 Main St",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-09-19T01:28:26.513Z",
+        "updated_at": "2023-09-18T18:46:16.491Z",
+        "car_id": "eefee960-b4c7-4b67-869c-ae8b1e67cd61"
+      }
+    ],
+    "booking": [
+      {
+        "id": "54296141-0446-481b-b157-4fd27ba415d9",
+        "start_time": "2023-09-19T00:30:01.221Z",
+        "end_time": "2023-09-18T11:52:32.827Z",
+        "status": "Pending",
+        "created_at": "2023-09-18T22:26:42.574Z",
+        "updated_at": "2023-09-19T04:23:43.891Z",
+        "car_id": "07ac06a0-ee18-41d7-a6bf-f2a204302af0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3052e3f6-c4de-4860-ba50-427c74cd86e0",
+        "start_time": "2023-09-19T09:23:22.123Z",
+        "end_time": "2023-09-19T08:50:30.057Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-19T02:42:32.874Z",
+        "updated_at": "2023-09-19T06:36:52.682Z",
+        "car_id": "49a79066-84eb-4fc8-b9d8-8e9b36ea0218",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6008f83b-5efe-45c1-9127-a4b44d3ac052",
+        "start_time": "2023-09-18T11:46:36.781Z",
+        "end_time": "2023-09-19T07:33:43.391Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-18T14:24:44.400Z",
+        "updated_at": "2023-09-18T22:25:01.202Z",
+        "car_id": "1037a407-5990-40b8-b88a-1e7896aae3e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56d3ec02-a84a-4245-a160-4115a22bac8b",
+        "start_time": "2023-09-18T17:34:04.781Z",
+        "end_time": "2023-09-18T12:45:59.841Z",
+        "status": "Completed",
+        "created_at": "2023-09-18T23:56:20.201Z",
+        "updated_at": "2023-09-19T08:33:18.685Z",
+        "car_id": "1037a407-5990-40b8-b88a-1e7896aae3e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "462d0da6-600e-4427-b81d-44f1578c8bae",
+        "start_time": "2023-09-18T15:59:21.637Z",
+        "end_time": "2023-09-18T19:21:34.374Z",
+        "status": "In Progress",
+        "created_at": "2023-09-19T04:23:51.498Z",
+        "updated_at": "2023-09-19T02:43:44.220Z",
+        "car_id": "eefee960-b4c7-4b67-869c-ae8b1e67cd61",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "5f04d74f-9942-4aad-bbc5-5013ac0eb368",
+        "created_at": "2023-09-19T05:51:53.082Z",
+        "updated_at": "2023-09-19T07:55:53.919Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV001"
+      },
+      {
+        "id": "2802a368-be81-4ce2-989c-27f61b29357a",
+        "created_at": "2023-09-19T02:56:07.584Z",
+        "updated_at": "2023-09-18T13:59:13.298Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV002"
+      },
+      {
+        "id": "49f49651-c4e3-4db8-b655-0e9328baeecc",
+        "created_at": "2023-09-19T08:15:33.074Z",
+        "updated_at": "2023-09-18T20:18:33.674Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV003"
+      },
+      {
+        "id": "53c55d8e-5ba7-45de-b74b-e16e41ec4e3d",
+        "created_at": "2023-09-18T17:54:38.660Z",
+        "updated_at": "2023-09-18T20:22:50.343Z",
+        "payment_method": "Cash",
+        "invoice_number": "INV004"
+      },
+      {
+        "id": "8fc4f93d-cc74-4dc7-8cea-6c2e22d9efca",
+        "created_at": "2023-09-18T19:34:28.246Z",
+        "updated_at": "2023-09-19T10:41:56.458Z",
+        "payment_method": "Cheque",
+        "invoice_number": "INV005"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4b34a5d2-c8c7-4677-8057-bbc4461cfd19",
+        "email": "Darrel66@yahoo.com",
+        "firstName": "Kevin",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/943.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d424ceb-cb0d-46b4-a255-f649c6bfd32b",
+        "email": "Lois.Schaefer@gmail.com",
+        "firstName": "Alexie",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95330795",
+        "tenantId": null
+      },
+      {
+        "reference": "277df106-42a0-4e4a-b2db-a9712f491879",
+        "email": "Frida_Koss@gmail.com",
+        "firstName": "Lexus",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26883334",
+        "tenantId": null
+      },
+      {
+        "reference": "9ebab4ec-6da3-421c-a921-5779971a0f33",
+        "email": "Luz22@hotmail.com",
+        "firstName": "Lori",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/603.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32ec70a9-aa97-42ca-9d3f-6bfea38ceeed",
+        "email": "Filiberto_Wyman@gmail.com",
+        "firstName": "Gregg",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53701222",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "0a9eda12-3d46-4875-9646-04edea577306",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 82046,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T20:19:39.096Z",
+        "updated_at": "2023-09-18T23:33:59.010Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dffa3b7d-0d27-4ee5-a448-bf5ee5785adf",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 38851,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-19T01:22:38.060Z",
+        "updated_at": "2023-09-19T09:06:54.669Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0059d87f-dbb6-4835-9baf-a9667c017550",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 60085,
+        "color": "Green",
+        "license_plate": "123456",
+        "availability_status": "In Service",
+        "created_at": "2023-09-18T11:52:48.186Z",
+        "updated_at": "2023-09-18T20:03:11.705Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b2031732-93e0-4086-ba36-649faac8ed5d",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 88314,
+        "color": "Black",
+        "license_plate": "789ABC",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-19T03:40:11.112Z",
+        "updated_at": "2023-09-19T03:52:07.673Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "02637320-ba0c-4668-9056-96cd80e622f8",
+        "make": "BMW",
+        "model": "X5",
+        "year": 8172,
+        "color": "White",
+        "license_plate": "456XYZ",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-19T03:56:27.886Z",
+        "updated_at": "2023-09-18T14:09:53.456Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "e5daf7b6-8717-453b-9964-e680f32b2f5a",
+        "latitude": 0.7371410278137773,
+        "longitude": 0.017116728704422712,
+        "address": "987 Elm Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-18T16:22:14.705Z",
+        "updated_at": "2023-09-19T11:01:55.948Z",
+        "car_id": "b2031732-93e0-4086-ba36-649faac8ed5d"
+      },
+      {
+        "id": "cd2c89c2-7be8-4468-8527-a63f68cac454",
+        "latitude": 0.4795781208667904,
+        "longitude": 0.7625708975829184,
+        "address": "654 Oak Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-18T20:06:19.045Z",
+        "updated_at": "2023-09-18T20:34:16.579Z",
+        "car_id": "02637320-ba0c-4668-9056-96cd80e622f8"
+      },
+      {
+        "id": "d441d6dc-1587-4414-ae80-c8ff0b714972",
+        "latitude": 0.37687591975554824,
+        "longitude": 0.9953131971415132,
+        "address": "321 Pine Lane",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80202",
+        "created_at": "2023-09-18T14:06:48.488Z",
+        "updated_at": "2023-09-19T06:52:30.278Z",
+        "car_id": "dffa3b7d-0d27-4ee5-a448-bf5ee5785adf"
+      },
+      {
+        "id": "fc726d53-449a-4070-a880-0cef3e2d9214",
+        "latitude": 0.38357990072108805,
+        "longitude": 0.18745560641400516,
+        "address": "789 Maple Road",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-19T02:37:39.324Z",
+        "updated_at": "2023-09-18T14:50:07.254Z",
+        "car_id": "0a9eda12-3d46-4875-9646-04edea577306"
+      },
+      {
+        "id": "226024bb-bb33-4cbe-9c9f-5c1da9bfd69d",
+        "latitude": 0.15454402705654502,
+        "longitude": 0.23096003732644022,
+        "address": "123 Birch Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-09-18T15:37:59.889Z",
+        "updated_at": "2023-09-18T15:25:07.827Z",
+        "car_id": "0059d87f-dbb6-4835-9baf-a9667c017550"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d0b971f8-6bd1-4701-833a-59df5d758049",
+        "start_time": "2023-09-19T03:51:32.926Z",
+        "end_time": "2023-09-18T15:20:27.172Z",
+        "status": "Pending",
+        "created_at": "2023-09-18T14:21:45.313Z",
+        "updated_at": "2023-09-19T10:45:03.194Z",
+        "car_id": "0059d87f-dbb6-4835-9baf-a9667c017550",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "daf7348e-6506-48b9-bd1e-b925033008b5",
+        "start_time": "2023-09-18T17:32:35.038Z",
+        "end_time": "2023-09-18T15:21:19.599Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-18T13:34:54.487Z",
+        "updated_at": "2023-09-19T02:15:45.406Z",
+        "car_id": "dffa3b7d-0d27-4ee5-a448-bf5ee5785adf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e62008b6-07bd-4d35-b4c9-83e67e73c5cb",
+        "start_time": "2023-09-19T01:36:40.919Z",
+        "end_time": "2023-09-19T04:06:23.620Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-18T14:23:31.218Z",
+        "updated_at": "2023-09-19T04:05:34.160Z",
+        "car_id": "dffa3b7d-0d27-4ee5-a448-bf5ee5785adf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3026465e-e270-4971-9f7b-0387c11fd4f5",
+        "start_time": "2023-09-19T08:06:25.364Z",
+        "end_time": "2023-09-18T17:11:28.972Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T00:54:57.719Z",
+        "updated_at": "2023-09-18T21:00:07.728Z",
+        "car_id": "0a9eda12-3d46-4875-9646-04edea577306",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cdeb0c5-ff5c-427d-a596-25967636252b",
+        "start_time": "2023-09-18T14:01:22.527Z",
+        "end_time": "2023-09-18T13:43:27.348Z",
+        "status": "In Progress",
+        "created_at": "2023-09-19T05:36:28.188Z",
+        "updated_at": "2023-09-18T21:01:31.140Z",
+        "car_id": "0059d87f-dbb6-4835-9baf-a9667c017550",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "5e09d2b6-6b0d-43d2-bcbe-ff0de7782c40",
+        "created_at": "2023-09-18T15:36:34.162Z",
+        "updated_at": "2023-09-19T03:21:27.708Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-12345"
+      },
+      {
+        "id": "0b9eb125-d0f0-4efd-8220-ab53085e8f28",
+        "created_at": "2023-09-18T17:33:19.089Z",
+        "updated_at": "2023-09-19T06:56:06.646Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-67890"
+      },
+      {
+        "id": "d098e82b-8c55-4801-8ef3-754e7251806f",
+        "created_at": "2023-09-19T01:12:28.499Z",
+        "updated_at": "2023-09-19T06:08:01.311Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-24680"
+      },
+      {
+        "id": "f0b3770d-9a15-4c2a-9557-3887ec3c382a",
+        "created_at": "2023-09-18T16:08:11.572Z",
+        "updated_at": "2023-09-19T07:01:38.224Z",
+        "payment_method": "Cash",
+        "invoice_number": "INV-13579"
+      },
+      {
+        "id": "3b1017ca-7c3a-4b8d-808d-8c49a36fd8e1",
+        "created_at": "2023-09-19T01:16:25.787Z",
+        "updated_at": "2023-09-18T20:01:59.442Z",
+        "payment_method": "Check",
+        "invoice_number": "INV-97531"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c3f59b33-0a36-4804-b86d-99d1e1b931e7",
+        "email": "Noe7@yahoo.com",
+        "firstName": "Sylvia",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/526.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "075e3163-613b-44bb-9ea0-2c16cba6c9ec",
+        "email": "Aileen.Batz94@hotmail.com",
+        "firstName": "Joyce",
+        "lastName": "Hirthe-Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/743.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef04f963-655e-420b-b269-b0eac61efb99",
+        "email": "Helena_Carroll40@gmail.com",
+        "firstName": "Hailey",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56649333",
+        "tenantId": null
+      },
+      {
+        "reference": "abcb4bb9-b768-4072-8dcd-7b78362ea58e",
+        "email": "Kraig51@gmail.com",
+        "firstName": "Jarret",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/543.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fcaa7788-3fb8-4d33-a505-fd34c1ce090f",
+        "email": "Eliezer24@gmail.com",
+        "firstName": "Tyreek",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/602.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "0fe86a1e-85d2-4ec1-99c7-2426cbec6c69",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 69229,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-18T13:01:49.146Z",
+        "updated_at": "2023-09-18T12:53:07.453Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "94d26b53-42a2-452d-8512-0ca6100a603d",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 85739,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-18T19:17:42.471Z",
+        "updated_at": "2023-09-18T16:02:32.421Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2f939a6a-bdf6-4c7f-ad83-78f944ae8a1e",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 71440,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "availability_status": "Reserved",
+        "created_at": "2023-09-19T03:34:10.229Z",
+        "updated_at": "2023-09-19T00:25:25.213Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4ccc6be8-b6af-41be-a0e3-649155e1512e",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 78056,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "availability_status": "In Service",
+        "created_at": "2023-09-19T04:36:01.026Z",
+        "updated_at": "2023-09-18T13:37:42.126Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "918332da-67d8-4e67-88d8-2873e05d2212",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 30873,
+        "color": "White",
+        "license_plate": "456DEF",
+        "availability_status": "Maintenance",
+        "created_at": "2023-09-18T12:14:44.934Z",
+        "updated_at": "2023-09-18T12:12:15.528Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "location": [
+      {
+        "id": "ea5fa896-24fd-4f93-862d-a16736dfc837",
+        "latitude": 0.38680118368938565,
+        "longitude": 0.5144621871877462,
+        "address": "789 Elm Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip_code": "94101",
+        "created_at": "2023-09-18T17:14:30.220Z",
+        "updated_at": "2023-09-19T03:06:32.698Z",
+        "car_id": "0fe86a1e-85d2-4ec1-99c7-2426cbec6c69"
+      },
+      {
+        "id": "2461ccbf-75c1-4b7d-be86-4933c8482d43",
+        "latitude": 0.1917641272302717,
+        "longitude": 0.11170441517606378,
+        "address": "456 Oak Avenue",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98101",
+        "created_at": "2023-09-18T22:04:52.782Z",
+        "updated_at": "2023-09-18T20:21:53.761Z",
+        "car_id": "4ccc6be8-b6af-41be-a0e3-649155e1512e"
+      },
+      {
+        "id": "e7e79419-7908-415c-8aec-fb5e325ca32f",
+        "latitude": 0.7517473280895501,
+        "longitude": 0.02816905896179378,
+        "address": "123 Pine Lane",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": "80202",
+        "created_at": "2023-09-18T17:45:29.828Z",
+        "updated_at": "2023-09-19T04:02:25.144Z",
+        "car_id": "0fe86a1e-85d2-4ec1-99c7-2426cbec6c69"
+      },
+      {
+        "id": "bfd0dca2-17c0-4c91-89f5-cbc611192011",
+        "latitude": 0.5371710015460849,
+        "longitude": 0.16617054073140025,
+        "address": "987 Maple Road",
+        "city": "Boston",
+        "state": "MA",
+        "zip_code": "02101",
+        "created_at": "2023-09-18T13:17:38.437Z",
+        "updated_at": "2023-09-18T14:44:54.691Z",
+        "car_id": "0fe86a1e-85d2-4ec1-99c7-2426cbec6c69"
+      },
+      {
+        "id": "498c4b1d-20de-4feb-9143-cd3ca05a13c5",
+        "latitude": 0.8025748301297426,
+        "longitude": 0.7335169198922813,
+        "address": "654 Cedar Drive",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30301",
+        "created_at": "2023-09-18T13:25:32.768Z",
+        "updated_at": "2023-09-19T01:12:36.463Z",
+        "car_id": "918332da-67d8-4e67-88d8-2873e05d2212"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f5576dc0-6661-4869-9a2e-6bc770d6c999",
+        "start_time": "2023-09-19T00:02:45.802Z",
+        "end_time": "2023-09-18T14:08:09.345Z",
+        "status": "Pending",
+        "created_at": "2023-09-19T06:59:20.594Z",
+        "updated_at": "2023-09-19T06:57:23.038Z",
+        "car_id": "918332da-67d8-4e67-88d8-2873e05d2212",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da50f183-e922-4a78-aa25-ccc32f7ce2b1",
+        "start_time": "2023-09-18T19:42:11.172Z",
+        "end_time": "2023-09-19T06:54:25.229Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-19T11:08:03.125Z",
+        "updated_at": "2023-09-18T14:21:49.796Z",
+        "car_id": "2f939a6a-bdf6-4c7f-ad83-78f944ae8a1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2c960fe-813e-42f1-9c3a-a59ab666d248",
+        "start_time": "2023-09-18T15:06:40.924Z",
+        "end_time": "2023-09-18T15:46:00.856Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-19T00:09:22.601Z",
+        "updated_at": "2023-09-18T12:53:27.253Z",
+        "car_id": "4ccc6be8-b6af-41be-a0e3-649155e1512e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cef3932a-caeb-46eb-92e8-d32772ec545c",
+        "start_time": "2023-09-18T16:06:22.215Z",
+        "end_time": "2023-09-19T01:18:20.735Z",
+        "status": "Completed",
+        "created_at": "2023-09-19T00:21:59.459Z",
+        "updated_at": "2023-09-18T13:38:41.881Z",
+        "car_id": "2f939a6a-bdf6-4c7f-ad83-78f944ae8a1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96f4727f-32cf-44f5-9192-bd7f770a7a86",
+        "start_time": "2023-09-18T13:33:16.912Z",
+        "end_time": "2023-09-18T14:20:42.843Z",
+        "status": "No Show",
+        "created_at": "2023-09-18T12:50:23.479Z",
+        "updated_at": "2023-09-18T15:30:58.356Z",
+        "car_id": "4ccc6be8-b6af-41be-a0e3-649155e1512e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "billing_details": [
+      {
+        "id": "5adc7be5-9281-4be7-993a-d248b5341ea7",
+        "created_at": "2023-09-19T08:01:02.508Z",
+        "updated_at": "2023-09-18T21:05:36.611Z",
+        "payment_method": "Credit Card",
+        "invoice_number": "INV-001"
+      },
+      {
+        "id": "7a34b89e-fddd-4873-b294-3b37a070d012",
+        "created_at": "2023-09-18T19:36:41.869Z",
+        "updated_at": "2023-09-19T02:28:10.826Z",
+        "payment_method": "PayPal",
+        "invoice_number": "INV-002"
+      },
+      {
+        "id": "e933b69a-5c52-47d8-a66d-573a8e0f26d7",
+        "created_at": "2023-09-19T07:51:17.820Z",
+        "updated_at": "2023-09-19T04:47:46.770Z",
+        "payment_method": "Bank Transfer",
+        "invoice_number": "INV-003"
+      },
+      {
+        "id": "df3a6c61-28e9-4b73-80eb-0776a6dddba6",
+        "created_at": "2023-09-18T15:13:54.357Z",
+        "updated_at": "2023-09-18T13:11:36.230Z",
+        "payment_method": "Venmo",
+        "invoice_number": "INV-004"
+      },
+      {
+        "id": "e7f4d48e-b683-40ec-bde8-59b4991e2b5b",
+        "created_at": "2023-09-19T04:41:30.132Z",
+        "updated_at": "2023-09-19T03:26:59.394Z",
+        "payment_method": "Apple Pay",
+        "invoice_number": "INV-005"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "77b3eee2-dd40-4624-95cf-833505b875a8",
+        "email": "Elouise.Beahan64@gmail.com",
+        "firstName": "Devan",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70267338",
+        "tenantId": null
+      },
+      {
+        "reference": "117c43bc-cdbb-4a95-af73-33f714b9b9ac",
+        "email": "Josiane.Waters64@yahoo.com",
+        "firstName": "Maddison",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/512.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d26e5b65-db19-44a0-ace1-f4fad6ca7a05",
+        "email": "Jarrod_Bauch67@yahoo.com",
+        "firstName": "Kole",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61221433",
+        "tenantId": null
+      },
+      {
+        "reference": "3ef20f55-73cb-4583-9984-19f5fbbef8b6",
+        "email": "Rhianna48@gmail.com",
+        "firstName": "Cynthia",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56741347",
+        "tenantId": null
+      },
+      {
+        "reference": "7dc66ade-88b8-4755-830c-3e8e896164e3",
+        "email": "Alfredo.Skiles-Dickens79@hotmail.com",
+        "firstName": "Ezra",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/881.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
